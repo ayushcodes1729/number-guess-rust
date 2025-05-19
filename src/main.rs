@@ -3,7 +3,6 @@ use rand::Rng;
 fn main(){
     println!("Number Guessing Game!!");
     let secret_number = rand::rng().random_range(1..=100);
-    println!("Secret number is {secret_number}");
     loop {
         println!("Guess a number: ");
         let mut guess = String::new();
